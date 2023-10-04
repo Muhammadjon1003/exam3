@@ -1,0 +1,114 @@
+footer .footer__section-item ul, footer .footer__section-links, footer .footer__section-logo, footer .footer__section, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  padding: 50px;
+  background: #1F2E35;
+  flex-direction: column;
+}
+footer .finish {
+  color: #FFF;
+  font-size: 16px;
+  padding-top: 30px;
+}
+footer .footer__section {
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+footer .footer__section-logo {
+  gap: 15px;
+}
+footer .footer__section-logo h1 {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+}
+footer .footer__section-links {
+  gap: 16px;
+}
+footer .footer__section-links img {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  background: #FFF;
+  border-radius: 50%;
+}
+footer .footer__section-item ul {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  color: #FFF;
+  font-size: 16px;
+}
+footer .footer__section-item p {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+footer .footer__section-item h4 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 280px;
+  padding-bottom: 30px;
+}
+footer .footer__section-item input {
+  width: 300px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #BCD0E5;
+  background: #FFF;
+  display: block;
+}
+footer .footer__section-item button {
+  width: 131px;
+  height: 39px;
+  border-radius: 4px;
+  background: #02897A;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 21px;
+  border: none;
+}
+
+@media (max-width: 447px) {
+  footer {
+    padding: 30px;
+  }
+}
+@media (max-width: 695px) {
+  footer p {
+    text-align: center;
+    font-size: 16px;
+  }
+  footer .footer__section {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 30px;
+  }
+  footer .footer__section input {
+    width: 90%;
+  }
+  footer .footer__section-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer .footer__section-item ul {
+    align-items: center;
+  }
+  footer .footer__section-item h5 {
+    text-align: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

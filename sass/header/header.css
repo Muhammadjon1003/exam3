@@ -1,0 +1,247 @@
+nav .navbar__section ul, nav .navbar__section, nav .navbar__logo, nav .navbar, nav, .price2, .price1, .header__section-item2 a, .header__section-item2 ul, .header__section-item2, .header__section-item1 a, .header__section-item1 ul, .header__section-item1, .header__section-items, header .header__section, header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  padding: 50px 100px 100px 100px;
+  background: #1F2E35;
+}
+header .header__section {
+  width: 100%;
+  flex-direction: column;
+}
+header .header__section h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+header .header__section .header__title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+header .header__section .header__desc {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header__section-items {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+.header__section-item1 {
+  width: 300px;
+  height: 450px;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 8px;
+}
+.header__section-item1 h1 {
+  color: #22343D;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header__section-item1 p {
+  color: #22343D;
+  font-size: 16px;
+  padding: 20px 0px;
+}
+.header__section-item1 ul {
+  flex-direction: column;
+  gap: 16px;
+  padding: 25px 0px;
+  color: #22343D;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+.header__section-item1 a {
+  padding: 11px 18px;
+  border-radius: 8px;
+  background: #02897A;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header__section-item2 {
+  width: 300px;
+  height: 450px;
+  flex-direction: column;
+  background: #02897A;
+  border-radius: 8px;
+}
+.header__section-item2 h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.header__section-item2 p {
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 0px;
+}
+.header__section-item2 ul {
+  flex-direction: column;
+  gap: 16px;
+  padding: 25px 0px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+.header__section-item2 a {
+  padding: 11px 18px;
+  border-radius: 8px;
+  background: #fff;
+  color: #02897A;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price1 {
+  width: 180px;
+  height: 100px;
+  flex-wrap: wrap;
+}
+.price1 h1 {
+  color: #02897A;
+  text-align: center;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 100px;
+  /* 131.579% */
+}
+.price1 .price__section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4px;
+}
+.price1 .price__section h5 {
+  height: 10px;
+  color: #02897A;
+  font-size: 24px;
+  font-weight: 700;
+}
+.price1 .price__section p {
+  color: #AFAFAF;
+  font-size: 16px;
+}
+
+.price2 {
+  width: 170px;
+  height: 100px;
+  flex-wrap: wrap;
+}
+.price2 h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 100px;
+  /* 131.579% */
+}
+.price2 .price__section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4px;
+}
+.price2 .price__section h5 {
+  height: 10px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.price2 .price__section p {
+  color: #fff;
+  font-size: 16px;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 100px;
+  background: #1F2E35;
+}
+nav .navbar {
+  width: 100%;
+  justify-content: space-between;
+}
+nav .navbar__logo {
+  gap: 15px;
+}
+nav .navbar__logo h1 {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+}
+nav .navbar__section {
+  gap: 25px;
+}
+nav .navbar__section ul {
+  gap: 15px;
+  font-size: 16px;
+}
+nav .navbar__section .navbar__link {
+  color: #fff;
+}
+nav .navbar__section button {
+  width: 100px;
+  height: 43px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  background: transparent;
+  border: 1px solid #fff;
+}
+nav .navbar__section button:nth-child(3) {
+  background: #02897A;
+}
+nav .navbar__section .bars {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  nav {
+    padding: 20px 30px;
+  }
+  header {
+    padding: 50px;
+  }
+}
+@media (max-width: 990px) {
+  nav .navbar__section button {
+    display: none;
+  }
+  nav .navbar__section .frame {
+    display: none;
+  }
+  nav .navbar__section .bars {
+    display: block;
+    color: #FFF;
+  }
+  header {
+    padding: 30px;
+  }
+}
+@media (max-width: 768px) {
+  nav .navbar__section ul {
+    display: none;
+  }
+}
+@media (max-width: 447px) {
+  header {
+    padding: 30px;
+  }
+}/*# sourceMappingURL=header.css.map */
